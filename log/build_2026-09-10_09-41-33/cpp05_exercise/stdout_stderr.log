@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:16:
+  Parse error.  Expected "(", got newline with text "
+
+  ".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/hqd/桌面/ws02_tools/build/cpp05_exercise/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:222: cmake_check_build_system] Error 1

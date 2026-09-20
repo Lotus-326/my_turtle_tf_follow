@@ -1,0 +1,8 @@
+gmake[1]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+[35m[1mScanning dependencies of target demo01_tf_listener[0m
+gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o[0m
+gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+gmake[1]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'

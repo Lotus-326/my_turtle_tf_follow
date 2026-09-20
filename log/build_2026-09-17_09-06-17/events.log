@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000299] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.000350] (-) JobUnselected: {'identifier': 'cpp03_tf_broadcaster'}
+[0.000381] (-) JobUnselected: {'identifier': 'cpp04_tf_listener'}
+[0.000413] (cpp05_exercise) JobQueued: {'identifier': 'cpp05_exercise', 'dependencies': OrderedDict()}
+[0.000444] (cpp05_exercise) JobStarted: {'identifier': 'cpp05_exercise'}
+[0.012227] (cpp05_exercise) JobProgress: {'identifier': 'cpp05_exercise', 'progress': 'cmake'}
+[0.013046] (cpp05_exercise) JobProgress: {'identifier': 'cpp05_exercise', 'progress': 'build'}
+[0.014897] (cpp05_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hqd/桌面/ws02_tools/build/cpp05_exercise', '--', '-j2', '-l2'], 'cwd': '/home/hqd/桌面/ws02_tools/build/cpp05_exercise', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'hqd'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hqd'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.133.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '859'), ('SYSTEMD_EXEC_PID', '1069'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/hqd/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5332'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqd'), ('JOURNAL_STREAM', '8:32495'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hqd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hqd/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hqd-virtual-machine:@/tmp/.ICE-unix/1042,unix/hqd-virtual-machine:/tmp/.ICE-unix/1042'), ('INVOCATION_ID', 'fb4a45226bbf48bd974952c9485b6290'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TW1EV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-df9856d741.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp05_exercise:/home/hqd/桌面/ws02_tools/install/cpp04_tf_listener:/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hqd/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp05_exercise:/home/hqd/桌面/ws02_tools/install/cpp04_tf_listener:/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble')]), 'shell': False}
+[0.080703] (cpp05_exercise) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.092733] (-) TimerEvent: {}
+[0.193162] (-) TimerEvent: {}
+[0.294683] (-) TimerEvent: {}
+[0.395426] (-) TimerEvent: {}
+[0.491983] (cpp05_exercise) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.495722] (-) TimerEvent: {}
+[0.590554] (cpp05_exercise) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.595935] (-) TimerEvent: {}
+[0.599471] (cpp05_exercise) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.632452] (cpp05_exercise) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.665968] (cpp05_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.696117] (-) TimerEvent: {}
+[0.706364] (cpp05_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.796282] (-) TimerEvent: {}
+[0.815190] (cpp05_exercise) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.822816] (cpp05_exercise) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.896473] (-) TimerEvent: {}
+[0.996844] (-) TimerEvent: {}
+[1.021358] (cpp05_exercise) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.097126] (-) TimerEvent: {}
+[1.197556] (-) TimerEvent: {}
+[1.218058] (cpp05_exercise) StdoutLine: {'line': b'-- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.279623] (cpp05_exercise) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.297674] (-) TimerEvent: {}
+[1.398041] (-) TimerEvent: {}
+[1.499106] (-) TimerEvent: {}
+[1.519933] (cpp05_exercise) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[1.564731] (cpp05_exercise) StderrLine: {'line': b'CMake Error at CMakeLists.txt:34 (add_executable):\n'}
+[1.564983] (cpp05_exercise) StderrLine: {'line': b'  add_executable cannot create target "exer02_tf_broadcaster" because another\n'}
+[1.565086] (cpp05_exercise) StderrLine: {'line': b'  target with the same name already exists.  The existing target is an\n'}
+[1.565180] (cpp05_exercise) StderrLine: {'line': b'  executable created in source directory\n'}
+[1.565270] (cpp05_exercise) StderrLine: {'line': b'  "/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/src/cpp05_exercise".  See documentation for\n'}
+[1.565361] (cpp05_exercise) StderrLine: {'line': b'  policy CMP0002 for more details.\n'}
+[1.565454] (cpp05_exercise) StderrLine: {'line': b'\n'}
+[1.565543] (cpp05_exercise) StderrLine: {'line': b'\n'}
+[1.569860] (cpp05_exercise) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.599228] (-) TimerEvent: {}
+[1.699708] (-) TimerEvent: {}
+[1.717915] (cpp05_exercise) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.718665] (cpp05_exercise) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/src/cpp05_exercise/include>\n'}
+[1.718807] (cpp05_exercise) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.720522] (cpp05_exercise) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.722086] (cpp05_exercise) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.723603] (cpp05_exercise) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.725831] (cpp05_exercise) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.725997] (cpp05_exercise) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.727505] (cpp05_exercise) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.738441] (cpp05_exercise) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.738821] (cpp05_exercise) StdoutLine: {'line': b'See also "/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp05_exercise/CMakeFiles/CMakeOutput.log".\n'}
+[1.751928] (cpp05_exercise) StderrLine: {'line': b'gmake: *** [Makefile:310: cmake_check_build_system] Error 1\n'}
+[1.753301] (cpp05_exercise) CommandEnded: {'returncode': 2}
+[1.769774] (cpp05_exercise) JobEnded: {'identifier': 'cpp05_exercise', 'rc': 2}
+[1.780733] (-) EventReactorShutdown: {}

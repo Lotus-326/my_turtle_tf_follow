@@ -1,0 +1,40 @@
+[0.014s] Invoking command in '/home/hqd/桌面/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqd/桌面/ws02_tools/build/cpp05_exercise -- -j2 -l2
+[0.049s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.226s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.291s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.296s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.305s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.319s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.384s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.387s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.488s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.557s] -- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)
+[0.578s] -- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.770s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.885s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.886s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hqd/桌面/ws02_tools/src/cpp05_exercise/include>
+[0.886s] -- Configured cppcheck exclude dirs and/or files: 
+[0.887s] -- Added test 'lint_cmake' to check CMake code style
+[0.888s] -- Added test 'uncrustify' to check C / C++ code style
+[0.888s] -- Configured uncrustify additional arguments: 
+[0.889s] -- Added test 'xmllint' to check XML markup files
+[0.901s] -- Configuring done
+[0.916s] -- Generating done
+[0.921s] -- Build files have been written to: /home/hqd/桌面/ws02_tools/build/cpp05_exercise
+[0.935s] gmake[1]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[0.938s] gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[0.945s] [35m[1mScanning dependencies of target exer01_tf_spawn[0m
+[1.078s] gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[1.083s] gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[1.096s] [ 50%] [32mBuilding CXX object CMakeFiles/exer01_tf_spawn.dir/src/exer01_tf_spawn.cpp.o[0m
+[1.489s] [01m[K/home/hqd/桌面/ws02_tools/src/cpp05_exercise/src/exer01_tf_spawn.cpp:18:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/srv/spawn.hpp: No such file or directory
+[1.490s]    18 | #include [01;31m[K"turtlesim/srv/spawn.hpp"[m[K
+[1.490s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.490s] compilation terminated.
+[1.491s] gmake[2]: *** [CMakeFiles/exer01_tf_spawn.dir/build.make:63: CMakeFiles/exer01_tf_spawn.dir/src/exer01_tf_spawn.cpp.o] Error 1
+[1.491s] gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[1.491s] gmake[1]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[1.492s] gmake[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/exer01_tf_spawn.dir/all] Error 2
+[1.492s] gmake: *** [Makefile:141: all] Error 2
+[1.498s] Invoked command in '/home/hqd/桌面/ws02_tools/build/cpp05_exercise' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqd/桌面/ws02_tools/build/cpp05_exercise -- -j2 -l2

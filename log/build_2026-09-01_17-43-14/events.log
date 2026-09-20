@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000384] (cpp02_rosbag) JobQueued: {'identifier': 'cpp02_rosbag', 'dependencies': OrderedDict()}
+[0.000414] (cpp02_rosbag) JobStarted: {'identifier': 'cpp02_rosbag'}
+[0.013321] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'cmake'}
+[0.013724] (cpp02_rosbag) Command: {'cmd': ['/usr/bin/cmake', '/home/hqd/桌面/ws02_tools/src/cpp02_rosbag', '-DCMAKE_INSTALL_PREFIX=/home/hqd/桌面/ws02_tools/install/cpp02_rosbag'], 'cwd': '/home/hqd/桌面/ws02_tools/build/cpp02_rosbag', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'hqd'), ('SSH_CLIENT', '192.168.130.1 59006 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hqd'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.135.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-93cd0b8b-0788-4270-b968-23c4ec1e1b5c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/hqd/miniconda3'), ('COLCON_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '19'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/remote-cli:/opt/ros/humble/bin:/home/hqd/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6d3e131bdf8fc4a6.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/hqd/.vscode-server/data/User/workspaceStorage/1fac5197ff89b8c51fb71fd17778da28/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c93fa923a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hqd/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/hqd/桌面/ws02_tools/build/cpp02_rosbag'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', '367a213af3ba36a2e265ee0a44719ccb'), ('CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.130.1 59006 192.168.130.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble')]), 'shell': False}
+[0.099260] (-) TimerEvent: {}
+[0.132275] (cpp02_rosbag) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.181582] (cpp02_rosbag) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199554] (-) TimerEvent: {}
+[0.206884] (cpp02_rosbag) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.279573] (cpp02_rosbag) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.283922] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299657] (-) TimerEvent: {}
+[0.345162] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.349655] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.350223] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.353190] (cpp02_rosbag) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.399760] (-) TimerEvent: {}
+[0.422958] (cpp02_rosbag) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.423838] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.495185] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.501303] (-) TimerEvent: {}
+[0.503127] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.503506] (cpp02_rosbag) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.509207] (cpp02_rosbag) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.589526] (cpp02_rosbag) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.601453] (-) TimerEvent: {}
+[0.685295] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.701559] (-) TimerEvent: {}
+[0.741034] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.748167] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.760047] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.779867] (cpp02_rosbag) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800033] (cpp02_rosbag) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801661] (-) TimerEvent: {}
+[0.862552] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.866414] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901771] (-) TimerEvent: {}
+[0.980196] (cpp02_rosbag) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so   \n'}
+[1.001610] (cpp02_rosbag) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.001870] (-) TimerEvent: {}
+[1.034369] (cpp02_rosbag) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.045647] (cpp02_rosbag) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.101985] (-) TimerEvent: {}
+[1.115922] (cpp02_rosbag) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.116455] (cpp02_rosbag) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.181658] (cpp02_rosbag) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.182951] (cpp02_rosbag) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.202087] (-) TimerEvent: {}
+[1.257664] (cpp02_rosbag) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[1.296096] (cpp02_rosbag) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.302189] (-) TimerEvent: {}
+[1.318105] (cpp02_rosbag) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.388540] (cpp02_rosbag) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.388737] (cpp02_rosbag) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/src/cpp02_rosbag/include>\n'}
+[1.388801] (cpp02_rosbag) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.389839] (cpp02_rosbag) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.391421] (cpp02_rosbag) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.391528] (cpp02_rosbag) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.392182] (cpp02_rosbag) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.396134] (cpp02_rosbag) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.402344] (-) TimerEvent: {}
+[1.407273] (cpp02_rosbag) StdoutLine: {'line': b'-- Generating done\n'}
+[1.413376] (cpp02_rosbag) StdoutLine: {'line': b'-- Build files have been written to: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp02_rosbag\n'}
+[1.421832] (cpp02_rosbag) CommandEnded: {'returncode': 0}
+[1.422146] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'build'}
+[1.422168] (cpp02_rosbag) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hqd/桌面/ws02_tools/build/cpp02_rosbag', '--', '-j2', '-l2'], 'cwd': '/home/hqd/桌面/ws02_tools/build/cpp02_rosbag', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'hqd'), ('SSH_CLIENT', '192.168.130.1 59006 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hqd'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.135.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-93cd0b8b-0788-4270-b968-23c4ec1e1b5c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/hqd/miniconda3'), ('COLCON_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '19'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/remote-cli:/opt/ros/humble/bin:/home/hqd/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6d3e131bdf8fc4a6.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/hqd/.vscode-server/data/User/workspaceStorage/1fac5197ff89b8c51fb71fd17778da28/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c93fa923a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hqd/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/hqd/桌面/ws02_tools/build/cpp02_rosbag'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', '367a213af3ba36a2e265ee0a44719ccb'), ('CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.130.1 59006 192.168.130.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble')]), 'shell': False}
+[1.448014] (cpp02_rosbag) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp02_rosbag'\n"}
+[1.449487] (cpp02_rosbag) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp02_rosbag'\n"}
+[1.449791] (cpp02_rosbag) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp02_rosbag'\n"}
+[1.456199] (cpp02_rosbag) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target demo01_writer\x1b[0m\n'}
+[1.456337] (cpp02_rosbag) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target demo02_reader\x1b[0m\n'}
+[1.502451] (-) TimerEvent: {}
+[1.532711] (cpp02_rosbag) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp02_rosbag'\n"}
+[1.538253] (cpp02_rosbag) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp02_rosbag'\n"}
+[1.548361] (cpp02_rosbag) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo02_reader.dir/src/demo02_reader.cpp.o\x1b[0m\n'}
+[1.560596] (cpp02_rosbag) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp02_rosbag'\n"}
+[1.568188] (cpp02_rosbag) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp02_rosbag'\n"}
+[1.585473] (cpp02_rosbag) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o\x1b[0m\n'}
+[1.602648] (-) TimerEvent: {}
+[1.703124] (-) TimerEvent: {}
+[1.803509] (-) TimerEvent: {}
+[1.903876] (-) TimerEvent: {}
+[2.004304] (-) TimerEvent: {}
+[2.104766] (-) TimerEvent: {}
+[2.205216] (-) TimerEvent: {}
+[2.305649] (-) TimerEvent: {}
+[2.406071] (-) TimerEvent: {}
+[2.506493] (-) TimerEvent: {}
+[2.606986] (-) TimerEvent: {}
+[2.707762] (-) TimerEvent: {}
+[2.808314] (-) TimerEvent: {}
+[2.908898] (-) TimerEvent: {}
+[3.009391] (-) TimerEvent: {}
+[3.109920] (-) TimerEvent: {}
+[3.210556] (-) TimerEvent: {}
+[3.311021] (-) TimerEvent: {}
+[3.420496] (-) TimerEvent: {}
+[3.525757] (-) TimerEvent: {}
+[3.626226] (-) TimerEvent: {}
+[3.726731] (-) TimerEvent: {}
+[3.827168] (-) TimerEvent: {}
+[3.927644] (-) TimerEvent: {}
+[4.028091] (-) TimerEvent: {}
+[4.128568] (-) TimerEvent: {}
+[4.229050] (-) TimerEvent: {}
+[4.329558] (-) TimerEvent: {}
+[4.411115] (cpp02_rosbag) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo02_reader\x1b[0m\n'}
+[4.429667] (-) TimerEvent: {}
+[4.522717] (cpp02_rosbag) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp02_rosbag'\n"}
+[4.529760] (-) TimerEvent: {}
+[4.530613] (cpp02_rosbag) StdoutLine: {'line': b'[ 75%] Built target demo02_reader\n'}
+[4.629875] (-) TimerEvent: {}
+[4.730132] (-) TimerEvent: {}
+[4.830459] (-) TimerEvent: {}
+[4.930794] (-) TimerEvent: {}
+[5.031247] (-) TimerEvent: {}
+[5.131650] (-) TimerEvent: {}
+[5.232070] (-) TimerEvent: {}
+[5.332398] (-) TimerEvent: {}
+[5.432706] (-) TimerEvent: {}
+[5.533267] (-) TimerEvent: {}
+[5.633672] (-) TimerEvent: {}
+[5.734049] (-) TimerEvent: {}
+[5.834503] (-) TimerEvent: {}
+[5.934798] (-) TimerEvent: {}
+[6.035278] (-) TimerEvent: {}
+[6.135730] (-) TimerEvent: {}
+[6.236061] (-) TimerEvent: {}
+[6.336542] (-) TimerEvent: {}
+[6.436950] (-) TimerEvent: {}
+[6.537482] (-) TimerEvent: {}
+[6.638177] (-) TimerEvent: {}
+[6.738572] (-) TimerEvent: {}
+[6.839105] (-) TimerEvent: {}
+[6.939653] (-) TimerEvent: {}
+[7.040413] (-) TimerEvent: {}
+[7.140892] (-) TimerEvent: {}
+[7.241250] (-) TimerEvent: {}
+[7.341583] (-) TimerEvent: {}
+[7.441912] (-) TimerEvent: {}
+[7.542435] (-) TimerEvent: {}
+[7.642780] (-) TimerEvent: {}
+[7.743028] (-) TimerEvent: {}
+[7.843310] (-) TimerEvent: {}
+[7.943650] (-) TimerEvent: {}
+[8.044250] (-) TimerEvent: {}
+[8.144714] (-) TimerEvent: {}
+[8.245022] (-) TimerEvent: {}
+[8.345442] (-) TimerEvent: {}
+[8.445768] (-) TimerEvent: {}
+[8.546214] (-) TimerEvent: {}
+[8.646527] (-) TimerEvent: {}
+[8.746871] (-) TimerEvent: {}
+[8.847288] (-) TimerEvent: {}
+[8.939797] (cpp02_rosbag) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_writer\x1b[0m\n'}
+[8.947404] (-) TimerEvent: {}
+[9.047906] (-) TimerEvent: {}
+[9.148310] (-) TimerEvent: {}
+[9.248696] (-) TimerEvent: {}
+[9.349086] (-) TimerEvent: {}
+[9.372303] (cpp02_rosbag) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp02_rosbag'\n"}
+[9.381680] (cpp02_rosbag) StdoutLine: {'line': b'[100%] Built target demo01_writer\n'}
+[9.382602] (cpp02_rosbag) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp02_rosbag'\n"}
+[9.406189] (cpp02_rosbag) CommandEnded: {'returncode': 0}
+[9.406481] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'install'}
+[9.426463] (cpp02_rosbag) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hqd/桌面/ws02_tools/build/cpp02_rosbag'], 'cwd': '/home/hqd/桌面/ws02_tools/build/cpp02_rosbag', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'hqd'), ('SSH_CLIENT', '192.168.130.1 59006 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hqd'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.135.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-93cd0b8b-0788-4270-b968-23c4ec1e1b5c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/hqd/miniconda3'), ('COLCON_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '19'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/hqd/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/remote-cli:/opt/ros/humble/bin:/home/hqd/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6d3e131bdf8fc4a6.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/hqd/.vscode-server/data/User/workspaceStorage/1fac5197ff89b8c51fb71fd17778da28/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c93fa923a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hqd/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/hqd/桌面/ws02_tools/build/cpp02_rosbag'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', '367a213af3ba36a2e265ee0a44719ccb'), ('CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.130.1 59006 192.168.130.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble')]), 'shell': False}
+[9.444224] (cpp02_rosbag) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.444355] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer\n'}
+[9.450969] (-) TimerEvent: {}
+[9.484163] (cpp02_rosbag) StdoutLine: {'line': b'-- Set runtime path of "/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer" to ""\n'}
+[9.484310] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader\n'}
+[9.484710] (cpp02_rosbag) StdoutLine: {'line': b'-- Set runtime path of "/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader" to ""\n'}
+[9.484962] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag\n'}
+[9.485126] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag\n'}
+[9.485261] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh\n'}
+[9.485407] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv\n'}
+[9.485714] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh\n'}
+[9.485870] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv\n'}
+[9.486022] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash\n'}
+[9.486224] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh\n'}
+[9.486349] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh\n'}
+[9.486474] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv\n'}
+[9.486598] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv\n'}
+[9.486866] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag\n'}
+[9.486961] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake\n'}
+[9.487106] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake\n'}
+[9.487199] (cpp02_rosbag) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml\n'}
+[9.488946] (cpp02_rosbag) CommandEnded: {'returncode': 0}
+[9.510860] (cpp02_rosbag) JobEnded: {'identifier': 'cpp02_rosbag', 'rc': 0}
+[9.511588] (-) EventReactorShutdown: {}

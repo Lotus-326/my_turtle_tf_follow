@@ -1,0 +1,1 @@
+Invoking command in '/home/hqd/桌面/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqd/桌面/ws02_tools/build/cpp05_exercise -- -j2 -l2

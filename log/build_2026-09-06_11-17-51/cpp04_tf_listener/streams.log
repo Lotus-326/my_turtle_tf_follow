@@ -1,0 +1,17 @@
+[0.020s] Invoking command in '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hqd/桌面/ws02_tools/build/cpp04_tf_listener -- -j2 -l2
+[0.060s] gmake[1]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+[0.063s] gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+[0.072s] [35m[1mScanning dependencies of target demo01_tf_listener[0m
+[0.131s] gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+[0.139s] gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+[0.151s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o[0m
+[0.493s] [01m[K/home/hqd/桌面/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+[0.493s]    20 | #include [01;31m[K"tf2_geometry_msgs/tf2_geometry_msgs.h"[m[K // 头文件中包含了tf2的相关函数
+[0.493s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.493s] compilation terminated.
+[0.495s] gmake[2]: *** [CMakeFiles/demo01_tf_listener.dir/build.make:63: CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o] Error 1
+[0.497s] gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+[0.499s] gmake[1]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+[0.499s] gmake[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/demo01_tf_listener.dir/all] Error 2
+[0.499s] gmake: *** [Makefile:141: all] Error 2
+[0.499s] Invoked command in '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hqd/桌面/ws02_tools/build/cpp04_tf_listener -- -j2 -l2

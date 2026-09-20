@@ -1,0 +1,12 @@
+gmake[1]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[35m[1mScanning dependencies of target exer03_tf_listener[0m
+gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[ 33%] Built target exer02_tf_broadcaster
+gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[ 66%] Built target exer01_tf_spawn
+gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[ 83%] [32mBuilding CXX object CMakeFiles/exer03_tf_listener.dir/src/exer03_tf_listener.cpp.o[0m

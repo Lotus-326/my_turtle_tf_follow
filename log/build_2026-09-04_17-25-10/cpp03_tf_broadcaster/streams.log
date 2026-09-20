@@ -1,0 +1,36 @@
+[0.011s] Invoking command in '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster -- -j2 -l2
+[0.175s] gmake[1]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster'
+[0.191s] gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster'
+[0.192s] gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster'
+[0.218s] gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster'
+[0.220s] [35m[1mScanning dependencies of target demo02_dynamic_tf_broadcaster[0m
+[0.246s] [ 50%] Built target demo01_static_tf_broadcaster
+[0.274s] gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster'
+[0.281s] gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster'
+[0.288s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o[0m
+[7.807s] [100%] [32m[1mLinking CXX executable demo02_dynamic_tf_broadcaster[0m
+[8.503s] gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster'
+[8.511s] [100%] Built target demo02_dynamic_tf_broadcaster
+[8.512s] gmake[1]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster'
+[8.521s] Invoked command in '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster -- -j2 -l2
+[8.534s] Invoking command in '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster
+[8.542s] -- Install configuration: ""
+[8.546s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster
+[8.548s] -- Installing: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo02_dynamic_tf_broadcaster
+[8.552s] -- Set runtime path of "/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo02_dynamic_tf_broadcaster" to ""
+[8.554s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp03_tf_broadcaster
+[8.556s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp03_tf_broadcaster
+[8.557s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.sh
+[8.558s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.dsv
+[8.558s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.sh
+[8.558s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.dsv
+[8.558s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.bash
+[8.558s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.sh
+[8.559s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.zsh
+[8.559s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.dsv
+[8.559s] -- Installing: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.dsv
+[8.560s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/packages/cpp03_tf_broadcaster
+[8.564s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig.cmake
+[8.564s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig-version.cmake
+[8.564s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.xml
+[8.566s] Invoked command in '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster

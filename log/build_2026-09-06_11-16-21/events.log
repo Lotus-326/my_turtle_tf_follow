@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.000190] (-) JobUnselected: {'identifier': 'cpp03_tf_broadcaster'}
+[0.000221] (cpp04_tf_listener) JobQueued: {'identifier': 'cpp04_tf_listener', 'dependencies': OrderedDict()}
+[0.000327] (cpp04_tf_listener) JobStarted: {'identifier': 'cpp04_tf_listener'}
+[0.043846] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'cmake'}
+[0.044511] (cpp04_tf_listener) Command: {'cmd': ['/usr/bin/cmake', '/home/hqd/桌面/ws02_tools/src/cpp04_tf_listener', '-DCMAKE_INSTALL_PREFIX=/home/hqd/桌面/ws02_tools/install/cpp04_tf_listener'], 'cwd': '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'hqd'), ('SSH_CLIENT', '192.168.130.1 62154 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hqd'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.136.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5bc40fff-8778-4a7d-aeb4-965a57eaec79.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/hqd/miniconda3'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/bin/remote-cli:/opt/ros/humble/bin:/home/hqd/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-fdfd6934e268591e.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/hqd/.vscode-server/data/User/workspaceStorage/1fac5197ff89b8c51fb71fd17778da28/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c93fa923a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hqd/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', '367a213af3ba36a2e265ee0a44719ccb'), ('CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.130.1 62154 192.168.130.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098878] (-) TimerEvent: {}
+[0.199122] (-) TimerEvent: {}
+[0.299382] (-) TimerEvent: {}
+[0.399647] (-) TimerEvent: {}
+[0.440686] (cpp04_tf_listener) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.499763] (-) TimerEvent: {}
+[0.600057] (-) TimerEvent: {}
+[0.700388] (-) TimerEvent: {}
+[0.800700] (-) TimerEvent: {}
+[0.813679] (cpp04_tf_listener) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.833315] (cpp04_tf_listener) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.900841] (-) TimerEvent: {}
+[1.001204] (-) TimerEvent: {}
+[1.101512] (-) TimerEvent: {}
+[1.201810] (-) TimerEvent: {}
+[1.242268] (cpp04_tf_listener) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.246152] (cpp04_tf_listener) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.301919] (-) TimerEvent: {}
+[1.402163] (-) TimerEvent: {}
+[1.502478] (-) TimerEvent: {}
+[1.598119] (cpp04_tf_listener) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.602557] (-) TimerEvent: {}
+[1.611428] (cpp04_tf_listener) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.614141] (cpp04_tf_listener) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.638584] (cpp04_tf_listener) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.702672] (-) TimerEvent: {}
+[1.803063] (-) TimerEvent: {}
+[1.882274] (cpp04_tf_listener) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.882412] (cpp04_tf_listener) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.903162] (-) TimerEvent: {}
+[2.003466] (-) TimerEvent: {}
+[2.104691] (-) TimerEvent: {}
+[2.174283] (cpp04_tf_listener) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.179583] (cpp04_tf_listener) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.194624] (cpp04_tf_listener) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.204826] (-) TimerEvent: {}
+[2.211717] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.304925] (-) TimerEvent: {}
+[2.405165] (-) TimerEvent: {}
+[2.460501] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.505304] (-) TimerEvent: {}
+[2.605589] (-) TimerEvent: {}
+[2.639708] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.705689] (-) TimerEvent: {}
+[2.754456] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.760802] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.777641] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.805794] (-) TimerEvent: {}
+[2.808715] (cpp04_tf_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.842456] (cpp04_tf_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.905933] (-) TimerEvent: {}
+[2.940197] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.950304] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.006042] (-) TimerEvent: {}
+[3.106328] (-) TimerEvent: {}
+[3.206627] (-) TimerEvent: {}
+[3.306899] (-) TimerEvent: {}
+[3.344453] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so   \n'}
+[3.407007] (-) TimerEvent: {}
+[3.426187] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.502172] (cpp04_tf_listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.507084] (-) TimerEvent: {}
+[3.531249] (cpp04_tf_listener) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.607191] (-) TimerEvent: {}
+[3.707450] (-) TimerEvent: {}
+[3.730908] (cpp04_tf_listener) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.734271] (cpp04_tf_listener) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.807550] (-) TimerEvent: {}
+[3.907820] (-) TimerEvent: {}
+[3.999245] (cpp04_tf_listener) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.999975] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.007965] (-) TimerEvent: {}
+[4.108311] (-) TimerEvent: {}
+[4.126713] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)\n'}
+[4.175443] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.208423] (-) TimerEvent: {}
+[4.308714] (-) TimerEvent: {}
+[4.409001] (-) TimerEvent: {}
+[4.484886] (cpp04_tf_listener) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.509097] (-) TimerEvent: {}
+[4.609346] (-) TimerEvent: {}
+[4.634844] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.635789] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/src/cpp04_tf_listener/include>\n'}
+[4.636107] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.638305] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.646544] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.646678] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.652824] (cpp04_tf_listener) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.657202] (cpp04_tf_listener) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.686601] (cpp04_tf_listener) StdoutLine: {'line': b'-- Generating done\n'}
+[4.699866] (cpp04_tf_listener) StdoutLine: {'line': b'-- Build files have been written to: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener\n'}
+[4.709478] (-) TimerEvent: {}
+[4.717818] (cpp04_tf_listener) CommandEnded: {'returncode': 0}
+[4.718580] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'build'}
+[4.718612] (cpp04_tf_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener', '--', '-j2', '-l2'], 'cwd': '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'hqd'), ('SSH_CLIENT', '192.168.130.1 62154 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hqd'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.136.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5bc40fff-8778-4a7d-aeb4-965a57eaec79.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/hqd/miniconda3'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/bin/remote-cli:/opt/ros/humble/bin:/home/hqd/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-fdfd6934e268591e.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/hqd/.vscode-server/data/User/workspaceStorage/1fac5197ff89b8c51fb71fd17778da28/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c93fa923a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hqd/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', '367a213af3ba36a2e265ee0a44719ccb'), ('CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.130.1 62154 192.168.130.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.809574] (-) TimerEvent: {}
+[4.816567] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[4.826434] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[4.863812] (cpp04_tf_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target demo01_tf_listener\x1b[0m\n'}
+[4.909706] (-) TimerEvent: {}
+[5.010020] (-) TimerEvent: {}
+[5.054061] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[5.072733] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[5.084627] (cpp04_tf_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o\x1b[0m\n'}
+[5.110204] (-) TimerEvent: {}
+[5.210447] (-) TimerEvent: {}
+[5.310701] (-) TimerEvent: {}
+[5.410993] (-) TimerEvent: {}
+[5.511296] (-) TimerEvent: {}
+[5.532444] (cpp04_tf_listener) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory\n'}
+[5.532772] (cpp04_tf_listener) StderrLine: {'line': b'   20 | #include \x1b[01;31m\x1b[K"tf2_geometry_msgs/tf2_geometry_msgs.h"\x1b[m\x1b[K // \xe5\xa4\xb4\xe6\x96\x87\xe4\xbb\xb6\xe4\xb8\xad\xe5\x8c\x85\xe5\x90\xab\xe4\xba\x86tf2\xe7\x9a\x84\xe7\x9b\xb8\xe5\x85\xb3\xe5\x87\xbd\xe6\x95\xb0\n'}
+[5.532831] (cpp04_tf_listener) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.532884] (cpp04_tf_listener) StderrLine: {'line': b'compilation terminated.\n'}
+[5.535120] (cpp04_tf_listener) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_tf_listener.dir/build.make:63: CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o] Error 1\n'}
+[5.535249] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[5.535313] (cpp04_tf_listener) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/demo01_tf_listener.dir/all] Error 2\n'}
+[5.535369] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[5.537036] (cpp04_tf_listener) StderrLine: {'line': b'gmake: *** [Makefile:141: all] Error 2\n'}
+[5.538758] (cpp04_tf_listener) CommandEnded: {'returncode': 2}
+[5.553801] (cpp04_tf_listener) JobEnded: {'identifier': 'cpp04_tf_listener', 'rc': 2}
+[5.558312] (-) EventReactorShutdown: {}

@@ -1,0 +1,68 @@
+[0.011s] Invoking command in '/home/hqd/桌面/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqd/桌面/ws02_tools/build/cpp05_exercise -- -j2 -l2
+[0.049s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.207s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.262s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.267s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.282s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.400s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.405s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.522s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.616s] -- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)
+[0.647s] -- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.786s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.810s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.881s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.881s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hqd/桌面/ws02_tools/src/cpp05_exercise/include>
+[0.881s] -- Configured cppcheck exclude dirs and/or files: 
+[0.882s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.883s] -- Added test 'lint_cmake' to check CMake code style
+[0.884s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.886s] -- Added test 'uncrustify' to check C / C++ code style
+[0.886s] -- Configured uncrustify additional arguments: 
+[0.887s] -- Added test 'xmllint' to check XML markup files
+[0.892s] -- Configuring done
+[0.918s] -- Generating done
+[0.929s] -- Build files have been written to: /home/hqd/桌面/ws02_tools/build/cpp05_exercise
+[0.942s] gmake[1]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[0.944s] gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[0.945s] gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[0.950s] [35m[1mScanning dependencies of target exer03_tf_listener[0m
+[0.953s] gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[0.972s] [ 33%] Built target exer02_tf_broadcaster
+[0.975s] gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[0.983s] gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[0.998s] [ 66%] Built target exer01_tf_spawn
+[1.022s] gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[1.030s] gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[1.041s] [ 83%] [32mBuilding CXX object CMakeFiles/exer03_tf_listener.dir/src/exer03_tf_listener.cpp.o[0m
+[4.927s] [100%] [32m[1mLinking CXX executable exer03_tf_listener[0m
+[5.112s] gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[5.119s] [100%] Built target exer03_tf_listener
+[5.120s] gmake[1]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'
+[5.129s] Invoked command in '/home/hqd/桌面/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqd/桌面/ws02_tools/build/cpp05_exercise -- -j2 -l2
+[5.138s] Invoking command in '/home/hqd/桌面/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hqd/桌面/ws02_tools/build/cpp05_exercise
+[5.144s] -- Install configuration: ""
+[5.145s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer01_tf_spawn
+[5.146s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer02_tf_broadcaster
+[5.146s] -- Installing: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer03_tf_listener
+[5.148s] -- Set runtime path of "/home/hqd/桌面/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer03_tf_listener" to ""
+[5.148s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise//launch
+[5.148s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise//launch/follow.launch.py
+[5.148s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/package_run_dependencies/cpp05_exercise
+[5.148s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/parent_prefix_path/cpp05_exercise
+[5.149s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.sh
+[5.149s] -- Installing: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.dsv
+[5.149s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.sh
+[5.149s] -- Installing: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.dsv
+[5.150s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.bash
+[5.150s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.sh
+[5.150s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.zsh
+[5.150s] -- Installing: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.dsv
+[5.150s] -- Installing: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.dsv
+[5.151s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/packages/cpp05_exercise
+[5.151s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig.cmake
+[5.151s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig-version.cmake
+[5.151s] -- Up-to-date: /home/hqd/桌面/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.xml
+[5.153s] Invoked command in '/home/hqd/桌面/ws02_tools/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hqd/桌面/ws02_tools/build/cpp05_exercise

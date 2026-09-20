@@ -1,0 +1,11 @@
+[0.006s] Invoking command in '/home/hqd/桌面/ws02_tools/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqd/桌面/ws02_tools/build/cpp05_exercise -- -j2 -l2
+[0.035s] CMake Error at CMakeLists.txt:16:
+[0.035s]   Parse error.  Expected "(", got newline with text "
+[0.035s] 
+[0.035s]   ".
+[0.035s] 
+[0.035s] 
+[0.035s] -- Configuring incomplete, errors occurred!
+[0.036s] See also "/home/hqd/桌面/ws02_tools/build/cpp05_exercise/CMakeFiles/CMakeOutput.log".
+[0.038s] gmake: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.039s] Invoked command in '/home/hqd/桌面/ws02_tools/build/cpp05_exercise' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqd/桌面/ws02_tools/build/cpp05_exercise -- -j2 -l2

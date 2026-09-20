@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000409] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.000442] (cpp03_tf_broadcaster) JobQueued: {'identifier': 'cpp03_tf_broadcaster', 'dependencies': OrderedDict()}
+[0.000479] (cpp03_tf_broadcaster) JobStarted: {'identifier': 'cpp03_tf_broadcaster'}
+[0.012979] (cpp03_tf_broadcaster) JobProgress: {'identifier': 'cpp03_tf_broadcaster', 'progress': 'cmake'}
+[0.014302] (cpp03_tf_broadcaster) JobProgress: {'identifier': 'cpp03_tf_broadcaster', 'progress': 'build'}
+[0.014767] (cpp03_tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster', '--', '-j2', '-l2'], 'cwd': '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'hqd'), ('SSH_CLIENT', '192.168.130.1 53977 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hqd'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/hqd/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.136.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2a00eeb2-955b-4a8e-933d-be38f3e2a2bf.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/hqd/miniconda3'), ('COLCON_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/bin/remote-cli:/opt/ros/humble/bin:/home/hqd/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-58d87cad459ccdd9.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/hqd/.vscode-server/data/User/workspaceStorage/1fac5197ff89b8c51fb71fd17778da28/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c93fa923a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hqd/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', '367a213af3ba36a2e265ee0a44719ccb'), ('CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.130.1 53977 192.168.130.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble')]), 'shell': False}
+[0.063332] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098189] (-) TimerEvent: {}
+[0.198450] (-) TimerEvent: {}
+[0.298742] (-) TimerEvent: {}
+[0.399063] (-) TimerEvent: {}
+[0.499872] (-) TimerEvent: {}
+[0.554435] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.599977] (-) TimerEvent: {}
+[0.604417] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.609007] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.619604] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.637488] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.655898] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700253] (-) TimerEvent: {}
+[0.712180] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.715915] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800416] (-) TimerEvent: {}
+[0.814557] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.900529] (-) TimerEvent: {}
+[0.905744] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.000656] (-) TimerEvent: {}
+[1.052766] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[1.076271] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.100903] (-) TimerEvent: {}
+[1.201402] (-) TimerEvent: {}
+[1.205202] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.205484] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/src/cpp03_tf_broadcaster/include>\n'}
+[1.205693] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.207355] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.209211] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.209303] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.209785] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.214274] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.237667] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Generating done\n'}
+[1.248550] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Build files have been written to: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp03_tf_broadcaster\n'}
+[1.262136] (cpp03_tf_broadcaster) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp03_tf_broadcaster'\n"}
+[1.263712] (cpp03_tf_broadcaster) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp03_tf_broadcaster'\n"}
+[1.267579] (cpp03_tf_broadcaster) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp03_tf_broadcaster'\n"}
+[1.280525] (cpp03_tf_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target demo01_static_tf_broadcaster\x1b[0m\n'}
+[1.289788] (cpp03_tf_broadcaster) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp03_tf_broadcaster'\n"}
+[1.296019] (cpp03_tf_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target demo02_dynamic_tf_broadcaster\x1b[0m\n'}
+[1.296177] (cpp03_tf_broadcaster) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp03_tf_broadcaster'\n"}
+[1.301686] (-) TimerEvent: {}
+[1.305815] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo01_static_tf_broadcaster.dir/src/demo01_static_tf_broadcaster.cpp.o\x1b[0m\n'}
+[1.401799] (-) TimerEvent: {}
+[1.425288] (cpp03_tf_broadcaster) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp03_tf_broadcaster'\n"}
+[1.434707] (cpp03_tf_broadcaster) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp03_tf_broadcaster'\n"}
+[1.446762] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo02_dynamic_tf_broadcaster.dir/src/demo02_dynamic_tf_broadcaster.cpp.o\x1b[0m\n'}
+[1.501901] (-) TimerEvent: {}
+[1.602327] (-) TimerEvent: {}
+[1.702760] (-) TimerEvent: {}
+[1.803262] (-) TimerEvent: {}
+[1.903825] (-) TimerEvent: {}
+[2.005600] (-) TimerEvent: {}
+[2.107073] (-) TimerEvent: {}
+[2.208525] (-) TimerEvent: {}
+[2.309034] (-) TimerEvent: {}
+[2.409507] (-) TimerEvent: {}
+[2.510021] (-) TimerEvent: {}
+[2.610297] (-) TimerEvent: {}
+[2.717931] (-) TimerEvent: {}
+[2.820135] (-) TimerEvent: {}
+[2.923748] (-) TimerEvent: {}
+[3.024351] (-) TimerEvent: {}
+[3.125016] (-) TimerEvent: {}
+[3.225637] (-) TimerEvent: {}
+[3.326270] (-) TimerEvent: {}
+[3.427935] (-) TimerEvent: {}
+[3.528267] (-) TimerEvent: {}
+[3.629952] (-) TimerEvent: {}
+[3.730701] (-) TimerEvent: {}
+[3.831301] (-) TimerEvent: {}
+[3.933002] (-) TimerEvent: {}
+[4.033383] (-) TimerEvent: {}
+[4.133758] (-) TimerEvent: {}
+[4.234095] (-) TimerEvent: {}
+[4.334445] (-) TimerEvent: {}
+[4.434869] (-) TimerEvent: {}
+[4.535239] (-) TimerEvent: {}
+[4.636231] (-) TimerEvent: {}
+[4.737047] (-) TimerEvent: {}
+[4.842243] (-) TimerEvent: {}
+[4.942732] (-) TimerEvent: {}
+[5.053358] (-) TimerEvent: {}
+[5.154232] (-) TimerEvent: {}
+[5.254501] (-) TimerEvent: {}
+[5.354840] (-) TimerEvent: {}
+[5.455445] (-) TimerEvent: {}
+[5.556861] (-) TimerEvent: {}
+[5.657168] (-) TimerEvent: {}
+[5.757451] (-) TimerEvent: {}
+[5.865609] (-) TimerEvent: {}
+[5.966224] (-) TimerEvent: {}
+[6.066713] (-) TimerEvent: {}
+[6.167180] (-) TimerEvent: {}
+[6.267639] (-) TimerEvent: {}
+[6.368419] (-) TimerEvent: {}
+[6.440298] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo02_dynamic_tf_broadcaster\x1b[0m\n'}
+[6.468592] (-) TimerEvent: {}
+[6.569535] (-) TimerEvent: {}
+[6.649032] (cpp03_tf_broadcaster) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp03_tf_broadcaster'\n"}
+[6.658024] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[ 75%] Built target demo02_dynamic_tf_broadcaster\n'}
+[6.669654] (-) TimerEvent: {}
+[6.770099] (-) TimerEvent: {}
+[6.870625] (-) TimerEvent: {}
+[6.971058] (-) TimerEvent: {}
+[7.071366] (-) TimerEvent: {}
+[7.153583] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_static_tf_broadcaster\x1b[0m\n'}
+[7.171487] (-) TimerEvent: {}
+[7.271871] (-) TimerEvent: {}
+[7.372172] (-) TimerEvent: {}
+[7.402071] (cpp03_tf_broadcaster) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp03_tf_broadcaster'\n"}
+[7.416909] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[100%] Built target demo01_static_tf_broadcaster\n'}
+[7.417735] (cpp03_tf_broadcaster) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp03_tf_broadcaster'\n"}
+[7.437847] (cpp03_tf_broadcaster) CommandEnded: {'returncode': 0}
+[7.438161] (cpp03_tf_broadcaster) JobProgress: {'identifier': 'cpp03_tf_broadcaster', 'progress': 'install'}
+[7.447936] (cpp03_tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster'], 'cwd': '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'hqd'), ('SSH_CLIENT', '192.168.130.1 53977 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hqd'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/hqd/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.136.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2a00eeb2-955b-4a8e-933d-be38f3e2a2bf.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/hqd/miniconda3'), ('COLCON_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/hqd/.vscode-server/cli/servers/Stable-a44adf7f53e00964ab890f9f8758a334f1fc15bc/server/bin/remote-cli:/opt/ros/humble/bin:/home/hqd/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-58d87cad459ccdd9.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/hqd/.vscode-server/data/User/workspaceStorage/1fac5197ff89b8c51fb71fd17778da28/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c93fa923a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hqd/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/hqd/桌面/ws02_tools/build/cpp03_tf_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', '367a213af3ba36a2e265ee0a44719ccb'), ('CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.130.1 53977 192.168.130.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble')]), 'shell': False}
+[7.456874] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.458271] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster\n'}
+[7.459876] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Set runtime path of "/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster" to ""\n'}
+[7.460116] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo02_dynamic_tf_broadcaster\n'}
+[7.460834] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Set runtime path of "/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo02_dynamic_tf_broadcaster" to ""\n'}
+[7.461123] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp03_tf_broadcaster\n'}
+[7.461219] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp03_tf_broadcaster\n'}
+[7.463253] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.sh\n'}
+[7.463527] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.dsv\n'}
+[7.464280] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.sh\n'}
+[7.464442] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.dsv\n'}
+[7.464667] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.bash\n'}
+[7.464842] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.sh\n'}
+[7.465002] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.zsh\n'}
+[7.465316] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.dsv\n'}
+[7.465596] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.dsv\n'}
+[7.466010] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/packages/cpp03_tf_broadcaster\n'}
+[7.466317] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig.cmake\n'}
+[7.466463] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig-version.cmake\n'}
+[7.466645] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.xml\n'}
+[7.469348] (cpp03_tf_broadcaster) CommandEnded: {'returncode': 0}
+[7.472253] (-) TimerEvent: {}
+[7.497829] (cpp03_tf_broadcaster) JobEnded: {'identifier': 'cpp03_tf_broadcaster', 'rc': 0}
+[7.498733] (-) EventReactorShutdown: {}

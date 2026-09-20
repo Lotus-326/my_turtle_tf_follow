@@ -1,0 +1,14 @@
+gmake[1]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+gmake[2]: Entering directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o[0m
+[01m[K/home/hqd/桌面/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: No such file or directory
+   20 | #include [01;31m[K"tf2_geometry_msgs/tf2_geometry_msgs.h"[m[K // 头文件中包含了tf2的相关函数
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+gmake[1]: Leaving directory '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'
+gmake[2]: *** [CMakeFiles/demo01_tf_listener.dir/build.make:63: CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/demo01_tf_listener.dir/all] Error 2
+gmake: *** [Makefile:141: all] Error 2

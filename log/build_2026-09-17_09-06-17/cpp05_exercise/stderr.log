@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:34 (add_executable):
+  add_executable cannot create target "exer02_tf_broadcaster" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/home/hqd/桌面/ws02_tools/src/cpp05_exercise".  See documentation for
+  policy CMP0002 for more details.
+
+
+gmake: *** [Makefile:310: cmake_check_build_system] Error 1

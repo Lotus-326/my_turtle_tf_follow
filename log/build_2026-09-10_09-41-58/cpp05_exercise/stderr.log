@@ -1,0 +1,7 @@
+[01m[K/home/hqd/桌面/ws02_tools/src/cpp05_exercise/src/exer01_tf_spawn.cpp:18:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/srv/spawn.hpp: No such file or directory
+   18 | #include [01;31m[K"turtlesim/srv/spawn.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/exer01_tf_spawn.dir/build.make:63: CMakeFiles/exer01_tf_spawn.dir/src/exer01_tf_spawn.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/exer01_tf_spawn.dir/all] Error 2
+gmake: *** [Makefile:141: all] Error 2

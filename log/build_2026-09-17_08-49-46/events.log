@@ -1,0 +1,220 @@
+[0.000000] (-) TimerEvent: {}
+[0.000963] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.001181] (-) JobUnselected: {'identifier': 'cpp03_tf_broadcaster'}
+[0.001245] (-) JobUnselected: {'identifier': 'cpp04_tf_listener'}
+[0.001427] (cpp05_exercise) JobQueued: {'identifier': 'cpp05_exercise', 'dependencies': OrderedDict()}
+[0.005502] (cpp05_exercise) JobStarted: {'identifier': 'cpp05_exercise'}
+[0.051098] (cpp05_exercise) JobProgress: {'identifier': 'cpp05_exercise', 'progress': 'cmake'}
+[0.052972] (cpp05_exercise) JobProgress: {'identifier': 'cpp05_exercise', 'progress': 'build'}
+[0.053937] (cpp05_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hqd/桌面/ws02_tools/build/cpp05_exercise', '--', '-j2', '-l2'], 'cwd': '/home/hqd/桌面/ws02_tools/build/cpp05_exercise', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'hqd'), ('SSH_CLIENT', '192.168.130.1 56511 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/hqd/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hqd/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hqd'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.137.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f843f6ae-4668-48ff-b4fb-226604709c94.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/hqd/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/hqd/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/hqd/miniconda3'), ('COLCON_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/hqd/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/bin/remote-cli:/opt/ros/humble/bin:/home/hqd/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5905324c258ab5c8.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/hqd/.vscode-server/data/User/workspaceStorage/1fac5197ff89b8c51fb71fd17778da28/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c93fa923a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp05_exercise:/home/hqd/桌面/ws02_tools/install/cpp04_tf_listener:/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hqd/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', '367a213af3ba36a2e265ee0a44719ccb'), ('CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.130.1 56511 192.168.130.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp05_exercise:/home/hqd/桌面/ws02_tools/install/cpp04_tf_listener:/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble')]), 'shell': False}
+[0.099164] (-) TimerEvent: {}
+[0.199638] (-) TimerEvent: {}
+[0.264071] (cpp05_exercise) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299759] (-) TimerEvent: {}
+[0.400522] (-) TimerEvent: {}
+[0.501384] (-) TimerEvent: {}
+[0.602081] (-) TimerEvent: {}
+[0.614971] (cpp05_exercise) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.702276] (-) TimerEvent: {}
+[0.717406] (cpp05_exercise) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.726534] (cpp05_exercise) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.760152] (cpp05_exercise) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.795117] (cpp05_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.802395] (-) TimerEvent: {}
+[0.833273] (cpp05_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.902565] (-) TimerEvent: {}
+[0.939370] (cpp05_exercise) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.947656] (cpp05_exercise) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002699] (-) TimerEvent: {}
+[1.103356] (-) TimerEvent: {}
+[1.147403] (cpp05_exercise) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.203495] (-) TimerEvent: {}
+[1.292001] (cpp05_exercise) StdoutLine: {'line': b'-- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.303636] (-) TimerEvent: {}
+[1.374469] (cpp05_exercise) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.403923] (-) TimerEvent: {}
+[1.504532] (-) TimerEvent: {}
+[1.605452] (-) TimerEvent: {}
+[1.610591] (cpp05_exercise) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[1.666149] (cpp05_exercise) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.705560] (-) TimerEvent: {}
+[1.806543] (-) TimerEvent: {}
+[1.830020] (cpp05_exercise) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.830432] (cpp05_exercise) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/src/cpp05_exercise/include>\n'}
+[1.830661] (cpp05_exercise) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.833113] (cpp05_exercise) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.835153] (cpp05_exercise) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.836923] (cpp05_exercise) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.841306] (cpp05_exercise) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.841784] (cpp05_exercise) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.842262] (cpp05_exercise) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.854379] (cpp05_exercise) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.906645] (cpp05_exercise) StdoutLine: {'line': b'-- Generating done\n'}
+[1.907023] (-) TimerEvent: {}
+[1.926453] (cpp05_exercise) StdoutLine: {'line': b'-- Build files have been written to: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp05_exercise\n'}
+[1.959377] (cpp05_exercise) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp05_exercise'\n"}
+[1.962474] (cpp05_exercise) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp05_exercise'\n"}
+[1.965135] (cpp05_exercise) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp05_exercise'\n"}
+[1.974080] (cpp05_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target exer02_tf_broadcaster\x1b[0m\n'}
+[1.979563] (cpp05_exercise) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp05_exercise'\n"}
+[2.007202] (-) TimerEvent: {}
+[2.029341] (cpp05_exercise) StdoutLine: {'line': b'[ 50%] Built target exer01_tf_spawn\n'}
+[2.107344] (-) TimerEvent: {}
+[2.208054] (-) TimerEvent: {}
+[2.227068] (cpp05_exercise) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp05_exercise'\n"}
+[2.250415] (cpp05_exercise) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp05_exercise'\n"}
+[2.268774] (cpp05_exercise) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/exer02_tf_broadcaster.dir/src/exer02_tf_broadcaster.cpp.o\x1b[0m\n'}
+[2.308432] (-) TimerEvent: {}
+[2.410142] (-) TimerEvent: {}
+[2.510667] (-) TimerEvent: {}
+[2.611167] (-) TimerEvent: {}
+[2.711692] (-) TimerEvent: {}
+[2.812211] (-) TimerEvent: {}
+[2.912643] (-) TimerEvent: {}
+[3.013064] (-) TimerEvent: {}
+[3.113525] (-) TimerEvent: {}
+[3.237081] (-) TimerEvent: {}
+[3.337493] (-) TimerEvent: {}
+[3.437844] (-) TimerEvent: {}
+[3.538199] (-) TimerEvent: {}
+[3.640586] (-) TimerEvent: {}
+[3.747976] (-) TimerEvent: {}
+[3.848333] (-) TimerEvent: {}
+[3.961347] (-) TimerEvent: {}
+[4.061931] (-) TimerEvent: {}
+[4.162513] (-) TimerEvent: {}
+[4.262865] (-) TimerEvent: {}
+[4.369305] (-) TimerEvent: {}
+[4.469799] (-) TimerEvent: {}
+[4.570339] (-) TimerEvent: {}
+[4.670839] (-) TimerEvent: {}
+[4.771366] (-) TimerEvent: {}
+[4.874459] (-) TimerEvent: {}
+[4.974866] (-) TimerEvent: {}
+[5.075346] (-) TimerEvent: {}
+[5.175939] (-) TimerEvent: {}
+[5.276420] (-) TimerEvent: {}
+[5.376852] (-) TimerEvent: {}
+[5.482481] (-) TimerEvent: {}
+[5.583086] (-) TimerEvent: {}
+[5.683460] (-) TimerEvent: {}
+[5.783853] (-) TimerEvent: {}
+[5.885406] (-) TimerEvent: {}
+[5.986058] (-) TimerEvent: {}
+[6.086664] (-) TimerEvent: {}
+[6.187275] (-) TimerEvent: {}
+[6.287696] (-) TimerEvent: {}
+[6.388174] (-) TimerEvent: {}
+[6.488668] (-) TimerEvent: {}
+[6.589215] (-) TimerEvent: {}
+[6.689693] (-) TimerEvent: {}
+[6.790128] (-) TimerEvent: {}
+[6.890641] (-) TimerEvent: {}
+[6.991079] (-) TimerEvent: {}
+[7.091613] (-) TimerEvent: {}
+[7.192213] (-) TimerEvent: {}
+[7.292825] (-) TimerEvent: {}
+[7.393385] (-) TimerEvent: {}
+[7.497054] (-) TimerEvent: {}
+[7.597621] (-) TimerEvent: {}
+[7.698357] (-) TimerEvent: {}
+[7.798794] (-) TimerEvent: {}
+[7.899908] (-) TimerEvent: {}
+[8.000328] (-) TimerEvent: {}
+[8.100936] (-) TimerEvent: {}
+[8.201786] (-) TimerEvent: {}
+[8.319757] (-) TimerEvent: {}
+[8.420328] (-) TimerEvent: {}
+[8.521236] (-) TimerEvent: {}
+[8.622090] (-) TimerEvent: {}
+[8.723087] (-) TimerEvent: {}
+[8.823646] (-) TimerEvent: {}
+[8.924551] (-) TimerEvent: {}
+[9.025110] (-) TimerEvent: {}
+[9.125696] (-) TimerEvent: {}
+[9.226289] (-) TimerEvent: {}
+[9.326846] (-) TimerEvent: {}
+[9.427402] (-) TimerEvent: {}
+[9.533049] (-) TimerEvent: {}
+[9.633819] (-) TimerEvent: {}
+[9.734387] (-) TimerEvent: {}
+[9.834737] (-) TimerEvent: {}
+[9.935095] (-) TimerEvent: {}
+[10.035461] (-) TimerEvent: {}
+[10.135847] (-) TimerEvent: {}
+[10.236230] (-) TimerEvent: {}
+[10.336630] (-) TimerEvent: {}
+[10.437020] (-) TimerEvent: {}
+[10.537364] (-) TimerEvent: {}
+[10.637738] (-) TimerEvent: {}
+[10.738116] (-) TimerEvent: {}
+[10.838497] (-) TimerEvent: {}
+[10.938877] (-) TimerEvent: {}
+[11.039249] (-) TimerEvent: {}
+[11.139658] (-) TimerEvent: {}
+[11.240079] (-) TimerEvent: {}
+[11.359443] (-) TimerEvent: {}
+[11.459975] (-) TimerEvent: {}
+[11.560347] (-) TimerEvent: {}
+[11.660728] (-) TimerEvent: {}
+[11.761095] (-) TimerEvent: {}
+[11.861486] (-) TimerEvent: {}
+[11.961875] (-) TimerEvent: {}
+[12.062213] (-) TimerEvent: {}
+[12.162728] (-) TimerEvent: {}
+[12.263168] (-) TimerEvent: {}
+[12.363618] (-) TimerEvent: {}
+[12.464101] (-) TimerEvent: {}
+[12.564564] (-) TimerEvent: {}
+[12.665034] (-) TimerEvent: {}
+[12.765502] (-) TimerEvent: {}
+[12.866036] (-) TimerEvent: {}
+[12.966553] (-) TimerEvent: {}
+[13.067003] (-) TimerEvent: {}
+[13.167447] (-) TimerEvent: {}
+[13.267915] (-) TimerEvent: {}
+[13.368568] (-) TimerEvent: {}
+[13.469027] (-) TimerEvent: {}
+[13.554484] (cpp05_exercise) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exer02_tf_broadcaster\x1b[0m\n'}
+[13.569136] (-) TimerEvent: {}
+[13.669473] (-) TimerEvent: {}
+[13.769903] (-) TimerEvent: {}
+[13.870289] (-) TimerEvent: {}
+[13.970709] (-) TimerEvent: {}
+[14.071057] (-) TimerEvent: {}
+[14.171401] (-) TimerEvent: {}
+[14.271742] (-) TimerEvent: {}
+[14.372076] (-) TimerEvent: {}
+[14.380281] (cpp05_exercise) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp05_exercise'\n"}
+[14.434014] (cpp05_exercise) StdoutLine: {'line': b'[100%] Built target exer02_tf_broadcaster\n'}
+[14.435357] (cpp05_exercise) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp05_exercise'\n"}
+[14.472187] (-) TimerEvent: {}
+[14.556058] (cpp05_exercise) CommandEnded: {'returncode': 0}
+[14.561975] (cpp05_exercise) JobProgress: {'identifier': 'cpp05_exercise', 'progress': 'install'}
+[14.572796] (-) TimerEvent: {}
+[14.587486] (cpp05_exercise) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'], 'cwd': '/home/hqd/桌面/ws02_tools/build/cpp05_exercise', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'hqd'), ('SSH_CLIENT', '192.168.130.1 56511 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/hqd/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/hqd/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hqd'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.137.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f843f6ae-4668-48ff-b4fb-226604709c94.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/hqd/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/hqd/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/hqd/miniconda3'), ('COLCON_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/hqd/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/hqd/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/bin/remote-cli:/opt/ros/humble/bin:/home/hqd/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hqd/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5905324c258ab5c8.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/hqd/.vscode-server/data/User/workspaceStorage/1fac5197ff89b8c51fb71fd17778da28/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4c93fa923a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp05_exercise:/home/hqd/桌面/ws02_tools/install/cpp04_tf_listener:/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hqd/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/hqd/桌面/ws02_tools/build/cpp05_exercise'), ('LC_ALL', 'en_US.UTF-8'), ('COPILOT_DEBUG_NONCE', '367a213af3ba36a2e265ee0a44719ccb'), ('CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('SSH_CONNECTION', '192.168.130.1 56511 192.168.130.130 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp05_exercise:/home/hqd/桌面/ws02_tools/install/cpp04_tf_listener:/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble')]), 'shell': False}
+[14.645077] (cpp05_exercise) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.656801] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer01_tf_spawn\n'}
+[14.657004] (cpp05_exercise) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer02_tf_broadcaster\n'}
+[14.669427] (cpp05_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/lib/cpp05_exercise/exer02_tf_broadcaster" to ""\n'}
+[14.670984] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise//launch\n'}
+[14.671932] (cpp05_exercise) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise//launch/follow.launch.py\n'}
+[14.672886] (-) TimerEvent: {}
+[14.673242] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/package_run_dependencies/cpp05_exercise\n'}
+[14.673449] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/parent_prefix_path/cpp05_exercise\n'}
+[14.674126] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.sh\n'}
+[14.674414] (cpp05_exercise) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.dsv\n'}
+[14.675307] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.sh\n'}
+[14.675828] (cpp05_exercise) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/environment/path.dsv\n'}
+[14.676656] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.bash\n'}
+[14.677077] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.sh\n'}
+[14.677587] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.zsh\n'}
+[14.677884] (cpp05_exercise) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/local_setup.dsv\n'}
+[14.679947] (cpp05_exercise) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.dsv\n'}
+[14.680455] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/ament_index/resource_index/packages/cpp05_exercise\n'}
+[14.680817] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig.cmake\n'}
+[14.680931] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig-version.cmake\n'}
+[14.681187] (cpp05_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp05_exercise/share/cpp05_exercise/package.xml\n'}
+[14.684193] (cpp05_exercise) CommandEnded: {'returncode': 0}
+[14.745095] (cpp05_exercise) JobEnded: {'identifier': 'cpp05_exercise', 'rc': 0}
+[14.746368] (-) EventReactorShutdown: {}

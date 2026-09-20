@@ -1,0 +1,17 @@
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake
+/home/hqd/桌面/ws02_tools/install/cpp02_rosbag/share/cpp02_rosbag/package.xml
