@@ -42,7 +42,7 @@ public:
         // 3-3.创建监听器
         listener_ = std::make_shared<tf2_ros::TransformListener>(*buffer_);
         // 3-4.创建速度发布方
-        cmd_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/" + father_frame + "cmd_vel",10);
+        cmd_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/" + father_frame + "/cmd_vel",10);
         // 3-5.创建一个定时器，实现坐标的变换,并且生成速度指令并发布
         timer_ = this->create_wall_timer(1s,std::bind(&Exer03TFListener::on_timer,this));
     }
