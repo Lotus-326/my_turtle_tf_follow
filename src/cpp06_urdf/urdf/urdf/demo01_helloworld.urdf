@@ -1,0 +1,20 @@
+<!-- 
+    需求：创建一个盒装机器人。
+        长：1米
+        宽：0.5米
+        高：0.1米
+-->
+<!-- 根标签 -->
+<robot name="hellow_world">
+    <!-- 连杆 -->
+    <link name="base_link">
+        <!-- 可视化 -->
+        <visual>
+            <!-- 集合外观 -->
+            <geometry>
+                <!-- 长方体 -->
+                <box size="1.0 0.5 0.1"/>
+            </geometry>
+        </visual>
+    </link>
+</robot>
