@@ -36,7 +36,7 @@ def generate_launch_description():
     # p_value = ParameterValue(Command(["xacro ",get_package_share_directory("cpp06_urdf") + "/urdf/urdf/demo01_helloworld.urdf"]))
     #优化3    
     model = DeclareLaunchArgument(name="model",default_value=get_package_share_directory("cpp06_urdf") + "/urdf/urdf/demo01_helloworld.urdf")
-    p_value = ParameterValue(Command(["xacro ",LaunchConfiguration("model",)]))
+    p_value = ParameterValue(Command(["xacro ",LaunchConfiguration("model")]))
 
     robot_state_pub = Node(
         package="robot_state_publisher",
