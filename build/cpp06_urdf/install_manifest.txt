@@ -1,4 +1,5 @@
 /home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/launch/display.launch.py
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/rviz/urdf.rviz
 /home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo01_helloworld.urdf
 /home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
 /home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
