@@ -1,0 +1,15 @@
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.dsv
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/path.sh
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/environment/path.dsv
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.bash
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.sh
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.zsh
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/local_setup.dsv
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.dsv
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/packages/cpp06_urdf
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig.cmake
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig-version.cmake
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/package.xml
