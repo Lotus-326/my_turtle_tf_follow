@@ -1,0 +1,254 @@
+[0.000000] (-) TimerEvent: {}
+[0.001038] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.004353] (-) JobUnselected: {'identifier': 'cpp03_tf_broadcaster'}
+[0.005233] (-) JobUnselected: {'identifier': 'cpp05_exercise'}
+[0.005378] (cpp04_tf_listener) JobQueued: {'identifier': 'cpp04_tf_listener', 'dependencies': OrderedDict()}
+[0.008710] (cpp04_tf_listener) JobStarted: {'identifier': 'cpp04_tf_listener'}
+[0.096827] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'cmake'}
+[0.096927] (-) TimerEvent: {}
+[0.102762] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'build'}
+[0.114080] (cpp04_tf_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener', '--', '-j2', '-l2'], 'cwd': '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'hqd'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hqd'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.133.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1045'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f131209bed0c5187a0148ed26ab099cd'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/hqd/miniconda3'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hqd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hqd/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hqd-virtual-machine:@/tmp/.ICE-unix/1045,unix/hqd-virtual-machine:/tmp/.ICE-unix/1045'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7688f954_7772_4620_aea0_222b9a222e03'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ZCAW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-52ed6abf2d.sock'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp05_exercise:/home/hqd/桌面/ws02_tools/install/cpp04_tf_listener:/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hqd/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f131209bed0c5187a0148ed26ab099cd'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp05_exercise:/home/hqd/桌面/ws02_tools/install/cpp04_tf_listener:/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble')]), 'shell': False}
+[0.197311] (-) TimerEvent: {}
+[0.298113] (-) TimerEvent: {}
+[0.399301] (-) TimerEvent: {}
+[0.440548] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[0.448008] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[0.451764] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[0.471698] (cpp04_tf_listener) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target demo02_msg_filter\x1b[0m\n'}
+[0.493930] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[0.499483] (-) TimerEvent: {}
+[0.600003] (-) TimerEvent: {}
+[0.630566] (cpp04_tf_listener) StdoutLine: {'line': b'[ 50%] Built target demo01_tf_listener\n'}
+[0.700511] (-) TimerEvent: {}
+[0.801081] (-) TimerEvent: {}
+[0.809972] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[0.826232] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[0.848350] (cpp04_tf_listener) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo02_msg_filter.dir/src/demo02_msg_filter.cpp.o\x1b[0m\n'}
+[0.901344] (-) TimerEvent: {}
+[1.002631] (-) TimerEvent: {}
+[1.103100] (-) TimerEvent: {}
+[1.203523] (-) TimerEvent: {}
+[1.304203] (-) TimerEvent: {}
+[1.404708] (-) TimerEvent: {}
+[1.505315] (-) TimerEvent: {}
+[1.606097] (-) TimerEvent: {}
+[1.706661] (-) TimerEvent: {}
+[1.808367] (-) TimerEvent: {}
+[1.910109] (-) TimerEvent: {}
+[2.012732] (-) TimerEvent: {}
+[2.113809] (-) TimerEvent: {}
+[2.215024] (-) TimerEvent: {}
+[2.315781] (-) TimerEvent: {}
+[2.417141] (-) TimerEvent: {}
+[2.518857] (-) TimerEvent: {}
+[2.621124] (-) TimerEvent: {}
+[2.724276] (-) TimerEvent: {}
+[2.824862] (-) TimerEvent: {}
+[2.926005] (-) TimerEvent: {}
+[3.026401] (-) TimerEvent: {}
+[3.126914] (-) TimerEvent: {}
+[3.232282] (-) TimerEvent: {}
+[3.332863] (-) TimerEvent: {}
+[3.433724] (-) TimerEvent: {}
+[3.534591] (-) TimerEvent: {}
+[3.635567] (-) TimerEvent: {}
+[3.736534] (-) TimerEvent: {}
+[3.839216] (-) TimerEvent: {}
+[3.939868] (-) TimerEvent: {}
+[4.040826] (-) TimerEvent: {}
+[4.143203] (-) TimerEvent: {}
+[4.247030] (-) TimerEvent: {}
+[4.347823] (-) TimerEvent: {}
+[4.448707] (-) TimerEvent: {}
+[4.549913] (-) TimerEvent: {}
+[4.655777] (-) TimerEvent: {}
+[4.756980] (-) TimerEvent: {}
+[4.857805] (-) TimerEvent: {}
+[4.961483] (-) TimerEvent: {}
+[5.062508] (-) TimerEvent: {}
+[5.163406] (-) TimerEvent: {}
+[5.264400] (-) TimerEvent: {}
+[5.365253] (-) TimerEvent: {}
+[5.466458] (-) TimerEvent: {}
+[5.567972] (-) TimerEvent: {}
+[5.669000] (-) TimerEvent: {}
+[5.770077] (-) TimerEvent: {}
+[5.871114] (-) TimerEvent: {}
+[5.972197] (-) TimerEvent: {}
+[6.072893] (-) TimerEvent: {}
+[6.173670] (-) TimerEvent: {}
+[6.281697] (-) TimerEvent: {}
+[6.383587] (-) TimerEvent: {}
+[6.484188] (-) TimerEvent: {}
+[6.585758] (-) TimerEvent: {}
+[6.687125] (-) TimerEvent: {}
+[6.788125] (-) TimerEvent: {}
+[6.889698] (-) TimerEvent: {}
+[6.990193] (-) TimerEvent: {}
+[7.091062] (-) TimerEvent: {}
+[7.196017] (-) TimerEvent: {}
+[7.305923] (-) TimerEvent: {}
+[7.407218] (-) TimerEvent: {}
+[7.508002] (-) TimerEvent: {}
+[7.609271] (-) TimerEvent: {}
+[7.710512] (-) TimerEvent: {}
+[7.811746] (-) TimerEvent: {}
+[7.912282] (-) TimerEvent: {}
+[8.013359] (-) TimerEvent: {}
+[8.114414] (-) TimerEvent: {}
+[8.215368] (-) TimerEvent: {}
+[8.316370] (-) TimerEvent: {}
+[8.418314] (-) TimerEvent: {}
+[8.518928] (-) TimerEvent: {}
+[8.619776] (-) TimerEvent: {}
+[8.724568] (-) TimerEvent: {}
+[8.825816] (-) TimerEvent: {}
+[8.926828] (-) TimerEvent: {}
+[9.028262] (-) TimerEvent: {}
+[9.129580] (-) TimerEvent: {}
+[9.230506] (-) TimerEvent: {}
+[9.331402] (-) TimerEvent: {}
+[9.432357] (-) TimerEvent: {}
+[9.533292] (-) TimerEvent: {}
+[9.634206] (-) TimerEvent: {}
+[9.735254] (-) TimerEvent: {}
+[9.836145] (-) TimerEvent: {}
+[9.937208] (-) TimerEvent: {}
+[10.038598] (-) TimerEvent: {}
+[10.144272] (-) TimerEvent: {}
+[10.244646] (-) TimerEvent: {}
+[10.345443] (-) TimerEvent: {}
+[10.446104] (-) TimerEvent: {}
+[10.546761] (-) TimerEvent: {}
+[10.647491] (-) TimerEvent: {}
+[10.748445] (-) TimerEvent: {}
+[10.849348] (-) TimerEvent: {}
+[10.950037] (-) TimerEvent: {}
+[11.050681] (-) TimerEvent: {}
+[11.151273] (-) TimerEvent: {}
+[11.251920] (-) TimerEvent: {}
+[11.352559] (-) TimerEvent: {}
+[11.453109] (-) TimerEvent: {}
+[11.553670] (-) TimerEvent: {}
+[11.654381] (-) TimerEvent: {}
+[11.755346] (-) TimerEvent: {}
+[11.856486] (-) TimerEvent: {}
+[11.958088] (-) TimerEvent: {}
+[12.058665] (-) TimerEvent: {}
+[12.159641] (-) TimerEvent: {}
+[12.260553] (-) TimerEvent: {}
+[12.368950] (-) TimerEvent: {}
+[12.470746] (-) TimerEvent: {}
+[12.571544] (-) TimerEvent: {}
+[12.672226] (-) TimerEvent: {}
+[12.773299] (-) TimerEvent: {}
+[12.874484] (-) TimerEvent: {}
+[12.975100] (-) TimerEvent: {}
+[13.076614] (-) TimerEvent: {}
+[13.177726] (-) TimerEvent: {}
+[13.278650] (-) TimerEvent: {}
+[13.379582] (-) TimerEvent: {}
+[13.481843] (-) TimerEvent: {}
+[13.584388] (-) TimerEvent: {}
+[13.685417] (-) TimerEvent: {}
+[13.786640] (-) TimerEvent: {}
+[13.887551] (-) TimerEvent: {}
+[13.988642] (-) TimerEvent: {}
+[14.089627] (-) TimerEvent: {}
+[14.190485] (-) TimerEvent: {}
+[14.291425] (-) TimerEvent: {}
+[14.392439] (-) TimerEvent: {}
+[14.493479] (-) TimerEvent: {}
+[14.593850] (-) TimerEvent: {}
+[14.695762] (-) TimerEvent: {}
+[14.796843] (-) TimerEvent: {}
+[14.897823] (-) TimerEvent: {}
+[14.998836] (-) TimerEvent: {}
+[15.120562] (-) TimerEvent: {}
+[15.221841] (-) TimerEvent: {}
+[15.322192] (-) TimerEvent: {}
+[15.423067] (-) TimerEvent: {}
+[15.524358] (-) TimerEvent: {}
+[15.625377] (-) TimerEvent: {}
+[15.726539] (-) TimerEvent: {}
+[15.828859] (-) TimerEvent: {}
+[15.929942] (-) TimerEvent: {}
+[16.030897] (-) TimerEvent: {}
+[16.132195] (-) TimerEvent: {}
+[16.237314] (-) TimerEvent: {}
+[16.337782] (-) TimerEvent: {}
+[16.438710] (-) TimerEvent: {}
+[16.539256] (-) TimerEvent: {}
+[16.639768] (-) TimerEvent: {}
+[16.740233] (-) TimerEvent: {}
+[16.841146] (-) TimerEvent: {}
+[16.941806] (-) TimerEvent: {}
+[17.042418] (-) TimerEvent: {}
+[17.143049] (-) TimerEvent: {}
+[17.243656] (-) TimerEvent: {}
+[17.344432] (-) TimerEvent: {}
+[17.445273] (-) TimerEvent: {}
+[17.546051] (-) TimerEvent: {}
+[17.646960] (-) TimerEvent: {}
+[17.747800] (-) TimerEvent: {}
+[17.848608] (-) TimerEvent: {}
+[17.949550] (-) TimerEvent: {}
+[18.050368] (-) TimerEvent: {}
+[18.151360] (-) TimerEvent: {}
+[18.252284] (-) TimerEvent: {}
+[18.353257] (-) TimerEvent: {}
+[18.453954] (-) TimerEvent: {}
+[18.555111] (-) TimerEvent: {}
+[18.656104] (-) TimerEvent: {}
+[18.757079] (-) TimerEvent: {}
+[18.857533] (-) TimerEvent: {}
+[18.957907] (-) TimerEvent: {}
+[19.058278] (-) TimerEvent: {}
+[19.159676] (-) TimerEvent: {}
+[19.260056] (-) TimerEvent: {}
+[19.360541] (-) TimerEvent: {}
+[19.461053] (-) TimerEvent: {}
+[19.510256] (cpp04_tf_listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo02_msg_filter\x1b[0m\n'}
+[19.561051] (-) TimerEvent: {}
+[19.662583] (-) TimerEvent: {}
+[19.763209] (-) TimerEvent: {}
+[19.863960] (-) TimerEvent: {}
+[19.965747] (-) TimerEvent: {}
+[20.066986] (-) TimerEvent: {}
+[20.168095] (-) TimerEvent: {}
+[20.269099] (-) TimerEvent: {}
+[20.369590] (-) TimerEvent: {}
+[20.470582] (-) TimerEvent: {}
+[20.571414] (-) TimerEvent: {}
+[20.672133] (-) TimerEvent: {}
+[20.700395] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[20.724300] (cpp04_tf_listener) StdoutLine: {'line': b'[100%] Built target demo02_msg_filter\n'}
+[20.725736] (cpp04_tf_listener) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/build/cpp04_tf_listener'\n"}
+[20.765326] (cpp04_tf_listener) CommandEnded: {'returncode': 0}
+[20.769324] (cpp04_tf_listener) JobProgress: {'identifier': 'cpp04_tf_listener', 'progress': 'install'}
+[20.772348] (-) TimerEvent: {}
+[20.796346] (cpp04_tf_listener) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'], 'cwd': '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', ''), ('USER', 'hqd'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hqd'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.133.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1045'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f131209bed0c5187a0148ed26ab099cd'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/hqd/miniconda3'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hqd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hqd/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/hqd-virtual-machine:@/tmp/.ICE-unix/1045,unix/hqd-virtual-machine:/tmp/.ICE-unix/1045'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7688f954_7772_4620_aea0_222b9a222e03'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ZCAW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-52ed6abf2d.sock'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp05_exercise:/home/hqd/桌面/ws02_tools/install/cpp04_tf_listener:/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/hqd/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', ''), ('_CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hqd/桌面/ws02_tools/build/cpp04_tf_listener'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/hqd/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f131209bed0c5187a0148ed26ab099cd'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', ''), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hqd/桌面/ws02_tools/install/cpp05_exercise:/home/hqd/桌面/ws02_tools/install/cpp04_tf_listener:/home/hqd/桌面/ws02_tools/install/cpp03_tf_broadcaster:/home/hqd/桌面/ws02_tools/install/cpp02_rosbag:/opt/ros/humble')]), 'shell': False}
+[20.823473] (cpp04_tf_listener) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.826299] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener\n'}
+[20.829149] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter\n'}
+[20.871085] (cpp04_tf_listener) StdoutLine: {'line': b'-- Set runtime path of "/home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo02_msg_filter" to ""\n'}
+[20.872525] (-) TimerEvent: {}
+[20.876212] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener\n'}
+[20.877013] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener\n'}
+[20.879686] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh\n'}
+[20.880245] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv\n'}
+[20.880854] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh\n'}
+[20.881396] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv\n'}
+[20.882092] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash\n'}
+[20.882225] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh\n'}
+[20.883422] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh\n'}
+[20.884079] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv\n'}
+[20.884756] (cpp04_tf_listener) StdoutLine: {'line': b'-- Installing: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv\n'}
+[20.898373] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener\n'}
+[20.899720] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake\n'}
+[20.912287] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake\n'}
+[20.912624] (cpp04_tf_listener) StdoutLine: {'line': b'-- Up-to-date: /home/hqd/\xe6\xa1\x8c\xe9\x9d\xa2/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml\n'}
+[20.918373] (cpp04_tf_listener) CommandEnded: {'returncode': 0}
+[20.972863] (-) TimerEvent: {}
+[20.985028] (cpp04_tf_listener) JobEnded: {'identifier': 'cpp04_tf_listener', 'rc': 0}
+[20.993135] (-) EventReactorShutdown: {}
