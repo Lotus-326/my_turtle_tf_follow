@@ -5,6 +5,9 @@
 
 <!-- 根标签 -->
 <robot name="demo02_link">
+    <material name="yellow">
+        <color rgba="0.8 0.6 0.2 0.5"/>
+    </material>    
     <link name="base_link">
         <!-- 描述link的外观 -->
         <visual>
@@ -19,12 +22,11 @@
             </geometry>
             <!-- 平移量和旋转度 -->
             <origin xyz="1 0.0 0.0" rpy="0.0 0.0 0.0"/>
- 
             <!-- 颜色 -->
-            <material name="yellow">
+            <!-- <material name="yellow">
                 <color rgba="0.8 0.6 0.2 0.5"/>
-            </material>
-
+            </material> -->
+            <material name="yellow"/>
         </visual>
     </link>
 </robot>
