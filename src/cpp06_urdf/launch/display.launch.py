@@ -55,6 +55,6 @@ def generate_launch_description():
     # 2.启动rviz2节点 优化2
     rviz2 = Node(package="rviz2",
         executable="rviz2",
-        argument = ["-d",get_package_share_directory("cpp06_urdf") + "/rviz/urdf.rviz"]
+        arguments = ["-d",get_package_share_directory("cpp06_urdf") + "/rviz/urdf.rviz"]
     )
     return LaunchDescription([model,robot_state_pub,rviz2,joint_state_pub])
