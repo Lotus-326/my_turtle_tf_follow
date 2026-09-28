@@ -1,0 +1,30 @@
+<!-- 
+    需求：生成不同形状（立方体球体或圆柱体）的机器人部件，
+
+-->
+
+<!-- 根标签 -->
+<robot name="demo02_link">
+    <link name="base_link">
+        <!-- 描述link的外观 -->
+        <visual>
+            <!-- 形状 -->
+            <geometry>
+                <!-- 盒状 -->
+                <!-- <box size="0.0 0.0 0.0"/> -->
+                 <!-- 球状 -->
+               <!-- <sphere radius="0.5"/> -->
+                <!-- 圆柱 -->
+                 <cylinder radius="0.1" length="2"/>
+            </geometry>
+            <!-- 平移量和旋转度 -->
+            <origin xyz="1 0.0 0.0" rpy="0.0 0.0 0.0"/>
+ 
+            <!-- 颜色 -->
+            <material name="yellow">
+                <color rgba="0.8 0.6 0.2 0.5"/>
+            </material>
+
+        </visual>
+    </link>
+</robot>
