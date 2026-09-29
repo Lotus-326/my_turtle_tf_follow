@@ -4,6 +4,7 @@
 /home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo03_joint.urdf
 /home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo01_helloworld_max.urdf
 /home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo04_basefootprint.urdf
+/home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo05_exercise.urdf
 /home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo02_link.urdf
 /home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
 /home/hqd/桌面/ws02_tools/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
