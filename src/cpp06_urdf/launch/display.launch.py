@@ -47,16 +47,16 @@ def generate_launch_description():
         parameters=[{"robot_description": p_value}]
     )
     # 优化1
-    # joint_state_pub = Node(
-    #     package ="joint_state_publisher",
-    #     executable ="joint_state_publisher",
-    # )
+    joint_state_pub = Node(
+        package ="joint_state_publisher",
+        executable ="joint_state_publisher",
+    )
     # 2.启动rviz2节点 优化2
     rviz2 = Node(package="rviz2",
         executable="rviz2",
         arguments = ["-d",get_package_share_directory("cpp06_urdf") + "/rviz/urdf.rviz"]
     )
-    return LaunchDescription([model,robot_state_pub,rviz2])
+    return LaunchDescription([model,robot_state_pub,rviz2,joint_state_pub])
 
 
 
