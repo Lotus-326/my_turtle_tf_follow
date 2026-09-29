@@ -47,14 +47,34 @@ def generate_launch_description():
         parameters=[{"robot_description": p_value}]
     )
     # 优化1
-    joint_state_pub = Node(
-        package ="joint_state_publisher",
-        executable ="joint_state_publisher",
-
-    )
+    # joint_state_pub = Node(
+    #     package ="joint_state_publisher",
+    #     executable ="joint_state_publisher",
+    # )
     # 2.启动rviz2节点 优化2
     rviz2 = Node(package="rviz2",
         executable="rviz2",
         arguments = ["-d",get_package_share_directory("cpp06_urdf") + "/rviz/urdf.rviz"]
     )
-    return LaunchDescription([model,robot_state_pub,rviz2,joint_state_pub])
+    return LaunchDescription([model,robot_state_pub,rviz2])
+
+
+
+"""
+    问题描述：通过joint_state_publisher_gui让关节运行到指定位置后，关节存在"抖动"
+            在初始位置和指定位置之间抖动。
+    解决：不再启动joint_state_publisher节点。
+    原因：
+            1.joint_state_publiser与joint_publisher_gui作用一致，都会发布非固定
+            关节的运动信息。
+            2.robot_state_publisher会订阅关节的运动信息，并生成坐标变换数据。
+            3.joint_state_publisher或joint_state_publisher_gui有一个存在时，就会有发布关节
+                运动信息，进而就能生成坐标变换
+                当两个都不启动时，坐标树生成不了，机器人模型显示异常。
+                当两个都存在时，robot_state_publisher一直发布初始关节位姿信息，robot_state_publisher_gui
+                发布指定的关节位姿信息，最终，两个信息都要订阅，最终产生了抖动的效果。
+
+
+"""
+
+
